@@ -1,0 +1,191 @@
+
+  #contact {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(
+        to right bottom,
+        rgba(15, 149, 160, 0.8),
+        rgba(15, 149, 160, 0.8)),
+    url(../img/system-3699542_1920.jpg);
+    background-size: cover;
+    background-position: top;
+    font-size: 20rem;
+
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font: 300 9rem 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    max-width: 84rem;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 40rem;
+    font-family: 'Lato';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .form-control, 
+  textarea {
+    border: none;
+    max-width: 40rem;
+    background-color: #fff;
+    color: #000;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .send-text {
+    display: block;
+    margin-top: 1rem;
+    font: 700 1.2rem 'Lato', sans-serif;
+    letter-spacing: 0.2rem;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    margin-left: -3rem;
+    padding-right: 2rem;
+  }
+  
+  .list-item {
+    line-height: 2;
+    color: #fff;
+  }
+  
+  .contact-text {
+    font: 300 4.8rem 'Lato', sans-serif;
+    letter-spacing: 0.19rem;
+    color: #fff;
+    margin-top: 5rem;
+  }
+
+  .place{
+    font-size: 3rem;
+  }
+  
+  .place {
+    margin-left: 5rem;
+  }
+  
+  .phone {
+    margin-left: 5rem;
+  }
+  
+  .gmail {
+    margin-left: 5rem;
+  }
+  
+  .contact-text a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+
+  
+  .copyright {
+    font: 200 1.4rem 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .btn1{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    position: relative;
+    transition: all 0.2s;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  .btn1:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  .btn1--white {
+    background-color: #fff;
+    color: #777;
+  }
+
+  textarea{
+    width: 30rem;
+    height: 26.5rem;
+    font-size: 2rem;
+  }
+.contact_all{
+    background-color:  rgb(15, 149, 160);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.fa {
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-2x{
+  margin-left: 1.5rem;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+  
+ /* HELPER CLASSES */
+  /* color - 1: #020024, #1a598f, #00d4ff */
+  .u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
