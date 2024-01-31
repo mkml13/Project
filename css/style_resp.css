@@ -3,3 +3,9 @@
       font-size: 40%;
     }
 }
+
+@media (min-width: 2160px){
+  *{
+    font-size: 70%;
+  }
+}
