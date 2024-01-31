@@ -6,6 +6,9 @@
 
 @media (min-width: 2160px){
   *{
-    font-size: 70%;
+    font-size: 75%;
+  }
+  #contact{
+    font-size: 8rem;
   }
 }
