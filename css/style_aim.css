@@ -37,13 +37,7 @@
   box-sizing: border-box;
   height: 100vh;
 }
-#aim-content ul *{
-  font-size: 1.5rem;
-  letter-spacing: normal;
-  margin-bottom: 1rem;
-  text-align: left;
-}
-#aim-content h3{
-  font-size: 3rem;
-  text-align: left;
+#aim-content p{
+  margin-top: 1rem;
+  font-size: 2rem;
 }
