@@ -12,3 +12,9 @@
     font-size: 8rem;
   }
 }
+
+@media (max-width: 1000px) {
+  *{
+    font-size: 42%;
+  }
+}
